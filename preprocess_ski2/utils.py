@@ -140,7 +140,7 @@ def _get_cont_exp(x):
 def _get_emails(x):
 	emails = re.findall(r'([a-z0-9+._-]+@[a-z0-9+._-]+\.[a-z0-9+_-]+)', x)
 	counts = len(emails)
-	return counts, _get_emails
+	return counts, emails
 
 def _remove_emails(x):
 	return re.sub(r'([a-z0-9+._-]+@[a-z0-9+._-]+\.[a-z0-9+_-]+)',"", x)
