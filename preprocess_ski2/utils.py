@@ -40,7 +40,7 @@ def _get_digit_counts(x):
 	return len([t for t in x.split() if t.isdigit()])
 
 def _get_uppercase_counts(x):
-	return len([t for t in x.split() if t.isuppper()])
+	return len([t for t in x.split() if t.isupper()])
 
 def _get_cont_exp(x):
 	contractions = {
