@@ -28,7 +28,7 @@ def get_uppercase_counts(x):
 	return utils._get_uppercase_counts(x)
 
 def cont_exp(x):
-	return utils._cont_exp(x)
+	return utils._get_cont_exp(x)
 
 def get_emails(x):
 	return utils._get_emails(x)
