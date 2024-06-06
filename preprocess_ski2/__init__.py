@@ -1,6 +1,6 @@
-from preprocess_kgptalkie import utils
+from preprocess_ski2 import utils
 
-__version__ = '0.0.3'
+__version__ = '0.0.1'
 
 def get_wordcounts(x):
 	return utils._get_wordcounts(x)
