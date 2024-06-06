@@ -11,6 +11,8 @@ from bs4 import BeautifulSoup
 import unicodedata
 from textblob import TextBlob
 
+nlp = spacy.load('en_core_web_sm')
+
 def _get_wordcounts(x):
 	length = len(str(x).split())
 	return length
