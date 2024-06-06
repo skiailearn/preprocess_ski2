@@ -29,11 +29,11 @@ def _get_stopwords_counts(x):
 	return l
 
 def _get_hashtag_counts(x):
-	l = len([t for t in x.split if t.startswith('#')])
+	l = len([t for t in x.split() if t.startswith('#')])
 	return l
 
 def _get_mentions_counts(x):
-	l = len([t for t in x.split if t.startswith('@')])
+	l = len([t for t in x.split() if t.startswith('@')])
 	return l
 
 def _get_digit_counts(x):
